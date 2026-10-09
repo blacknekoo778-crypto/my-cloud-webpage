@@ -1,26 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My First Cloud Web Page</title>
 
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: lightblue;
-            padding: 50px;
+            background-color: #eaf5ff;
+            color: #243247;
+        }
+
+        header {
+            background-color: #174a7e;
+            color: white;
+            padding: 36px 20px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 35px auto;
+            padding: 28px 20px;
+            background-color: white;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
         }
 
         h1 {
-            color: darkblue;
+            margin-top: 0;
         }
 
         p {
-            color: black;
             font-size: 18px;
+            line-height: 1.6;
         }
 
-        img {
-            width: 150px;
-            height: 150px;
+        .car-image {
+            display: block;
+            width: 100%;
+            max-width: 650px;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 12px;
         }
+
+        .link-button {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 12px 20px;
+            background-color: #174a7e;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+        }
+
+        .link-button:hover {
+            background-color: #0e345b;
+        }
+
+        footer {
+            padding: 20px;
+            color: #536273;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My First Cloud Web Page</h1>
+        <p>My first website hosted using GitHub Pages</p>
+    </header>
+
+    <main>
+        <h2>Welcome to My Car Page!</h2>
+
+        <p>This is my first static website hosted on the cloud.</p>
+
+        <h2>Featured Car</h2>
+
+        <img
+            class="car-image"
+            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+            alt="A sports car"
+        >
+
+        <p>Here is a picture of a sports car.</p>
+
+        <a
+            class="link-button"
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Visit Google
+        </a>
+    </main>
+
+    <footer>
+        Practical 7: Hosting a Static Web Page on GitHub Pages
+    </footer>
+
+</body>
+</html>
