@@ -4,34 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My First Cloud Web Page</title>
+    <title>My Car Website</title>
 
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
+            background-color: #eaf2f8;
+            color: #333333;
             text-align: center;
-            background-color: #eaf5ff;
-            color: #243247;
+            margin: 0;
+            padding: 0;
         }
 
         header {
-            background-color: #174a7e;
+            background-color: #1f3a5f;
             color: white;
-            padding: 36px 20px;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 35px auto;
-            padding: 28px 20px;
-            background-color: white;
-            border-radius: 14px;
-            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+            padding: 25px;
         }
 
         h1 {
-            margin-top: 0;
+            margin: 0;
+            font-size: 36px;
+        }
+
+        main {
+            padding: 30px 20px;
+        }
+
+        .car-image {
+            width: 80%;
+            max-width: 700px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
         }
 
         p {
@@ -39,33 +45,25 @@
             line-height: 1.6;
         }
 
-        .car-image {
-            display: block;
-            width: 100%;
-            max-width: 650px;
-            height: auto;
-            margin: 20px auto;
-            border-radius: 12px;
-        }
-
-        .link-button {
+        a {
             display: inline-block;
-            margin-top: 12px;
-            padding: 12px 20px;
-            background-color: #174a7e;
+            background-color: #1f3a5f;
             color: white;
             text-decoration: none;
-            border-radius: 7px;
+            padding: 12px 25px;
+            border-radius: 8px;
+            margin-top: 15px;
         }
 
-        .link-button:hover {
-            background-color: #0e345b;
+        a:hover {
+            background-color: #4169a1;
         }
 
         footer {
-            padding: 20px;
-            color: #536273;
-            font-size: 14px;
+            background-color: #1f3a5f;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -73,37 +71,36 @@
 <body>
 
     <header>
-        <h1>My First Cloud Web Page</h1>
-        <p>My first website hosted using GitHub Pages</p>
+        <h1>Welcome to My Car Website</h1>
+        <p>My favourite cars and automotive designs</p>
     </header>
 
     <main>
-        <h2>Welcome to My Car Page!</h2>
-
-        <p>This is my first static website hosted on the cloud.</p>
-
-        <h2>Featured Car</h2>
+        <h2>Beautiful Sports Car</h2>
 
         <img
             class="car-image"
             src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
-            alt="A sports car"
+            alt="A beautiful sports car"
         >
 
-        <p>Here is a picture of a sports car.</p>
+        <p>
+            Welcome to my website! This page shows a beautiful sports car.
+            I enjoy learning about cars, their designs, and their performance.
+        </p>
 
-        <a
-            class="link-button"
-            href="https://www.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
+        <p>
+            This is my first static website created using HTML and CSS.
+            It is hosted online using GitHub Pages.
+        </p>
+
+        <a href="https://www.google.com" target="_blank">
             Visit Google
         </a>
     </main>
 
     <footer>
-        Practical 7: Hosting a Static Web Page on GitHub Pages
+        <p>&copy; 2026 My Car Website | Created using HTML and CSS</p>
     </footer>
 
 </body>
